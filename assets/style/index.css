@@ -5,3 +5,70 @@
   margin-inline: auto;
 }
 
+
+body {
+  background-color: #fff;
+}
+
+header {
+  background-color: #7a53d4;
+}
+
+header .flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title h1 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  line-height: 56px;
+}
+
+nav ul {
+  list-style: none;
+  font-size: 0;
+}
+
+nav ul li {
+  display: inline;
+  line-height: 56px;
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 0.2px;
+  transition: color 0.25s ease-in-out;
+}
+
+nav ul li a:hover {
+color: #007fff;
+}
+
+nav ul li + li {
+  margin-left: 20px;
+}
+
+main {
+  padding: 100px 0;
+  height: calc(100vh - 65px - 65px );
+  overflow: hidden;
+  background:  #f2f3f4 url("../image/picture.jpg") center center/ cover no-repeat fixed ;
+}
+
+main h2 {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 50px;
+}
+
+main p {
+  text-align: center;
+  font-size: 30px;
+}
