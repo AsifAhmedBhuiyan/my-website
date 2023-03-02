@@ -72,3 +72,113 @@ main p {
   text-align: center;
   font-size: 30px;
 }
+
+footer p {
+  font-size: 15px;
+  text-align: right ;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #f2f3f4;
+  padding-top: 10px ;
+  height: 60px;
+}
+
+.container h2 {
+  margin-top: 40px;
+}
+
+.container p {
+  font-size: 18px;
+}
+
+.contact {
+  width: min(100% - 30px, 1080px);
+  margin-inline: auto;
+}
+
+input[type=text] {
+  width: 320px;
+  height: 46px;
+  margin-top: 20px;
+  border: 1px solid #000;
+  padding: 0 15px 0 38px;
+  font-size: 18px;
+  font-weight: 400;
+  background: rgb(255 255 255 / 0.1) url("../image/user.png") no-repeat 16px 50%;
+  background-size: 17px;
+  transition: border-color 0.25s ease-in-out;
+}
+
+input[type=button] {
+  position: relative;
+  bottom: 1px;
+  margin-top: 10px;
+  margin-left: 1px;
+  width: 120px;
+  height: 46px;
+  text-align: center;
+  background-color:#364ee6;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color:  #fff;
+  transition: background-color 0.25s ease-in-out;
+}
+
+input[type=button]:hover {
+  background-color: #ff0000;
+}
+
+input[type=contact] {
+  width: 320px;
+  height: 46px;
+  margin-top: 10px;
+  border: 1px solid #000;
+  padding: 0 15px 0 38px;
+  font-size: 18px;
+  font-weight: 400;
+  background: rgb(255 255 255 / 0.1) url("../image/phone.png") no-repeat 16px 50%;
+  background-size: 17px;
+  transition: border-color 0.25s ease-in-out;
+}
+
+input[type=e-mail] {
+  width: 320px;
+  height: 46px;
+  margin-top: 10px;
+  border: 1px solid #000;
+  padding: 0 15px 0 38px;
+  font-size: 18px;
+  font-weight: 400;
+  background: rgb(255 255 255 / 0.1) url("../image/email.png") no-repeat 16px 50%;
+  background-size: 17px;
+  transition: border-color 0.25s ease-in-out;
+}
+
+input[type=message] {
+  width: 320px;
+  height: 106px;
+  margin-top: 10px;
+  border: 1px solid #000;
+  padding: 0 15px 0 38px;
+  font-size: 18px;
+  font-weight: 400;
+  background: rgb(255 255 255 / 0.1) url("../image/message.png") no-repeat 16px 50%;
+  background-size: 17px;
+  transition: border-color 0.25s ease-in-out;
+}
+
+.contact nav ul li {
+  display: inline;
+  background-color: #7a53d4;
+  border-radius: 50%;
+  text-decoration: none;
+  border: 1px solid #808080;
+  padding: 20px;
+  cursor: pointer;
+}
