@@ -99,19 +99,6 @@ footer {
   margin-inline: auto;
 }
 
-input[type=text] {
-  width: 320px;
-  height: 46px;
-  margin-top: 20px;
-  border: 1px solid #000;
-  padding: 0 15px 0 38px;
-  font-size: 18px;
-  font-weight: 400;
-  background: rgb(255 255 255 / 0.1) url("../image/user.png") no-repeat 16px 50%;
-  background-size: 17px;
-  transition: border-color 0.25s ease-in-out;
-}
-
 input[type=button] {
   position: relative;
   bottom: 1px;
@@ -134,46 +121,7 @@ input[type=button]:hover {
   background-color: #ff0000;
 }
 
-input[type=contact] {
-  width: 320px;
-  height: 46px;
-  margin-top: 10px;
-  border: 1px solid #000;
-  padding: 0 15px 0 38px;
-  font-size: 18px;
-  font-weight: 400;
-  background: rgb(255 255 255 / 0.1) url("../image/phone.png") no-repeat 16px 50%;
-  background-size: 17px;
-  transition: border-color 0.25s ease-in-out;
-}
-
-input[type=e-mail] {
-  width: 320px;
-  height: 46px;
-  margin-top: 10px;
-  border: 1px solid #000;
-  padding: 0 15px 0 38px;
-  font-size: 18px;
-  font-weight: 400;
-  background: rgb(255 255 255 / 0.1) url("../image/email.png") no-repeat 16px 50%;
-  background-size: 17px;
-  transition: border-color 0.25s ease-in-out;
-}
-
-input[type=message] {
-  width: 320px;
-  height: 106px;
-  margin-top: 10px;
-  border: 1px solid #000;
-  padding: 0 15px 0 38px;
-  font-size: 18px;
-  font-weight: 400;
-  background: rgb(255 255 255 / 0.1) url("../image/message.png") no-repeat 16px 50%;
-  background-size: 17px;
-  transition: border-color 0.25s ease-in-out;
-}
-
-.contact nav ul li {
+nav ul li a i {
   display: inline;
   background-color: #7a53d4;
   border-radius: 50%;
