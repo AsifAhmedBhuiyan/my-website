@@ -5,7 +5,6 @@
   margin-inline: auto;
 }
 
-
 body {
   background-color: #fff;
 }
@@ -69,7 +68,7 @@ main {
     right: 20px;
   }
   .menu {
-    display: block;
+    display: ;
     position: fixed;
     top: 0;
     right: 0;
@@ -117,29 +116,16 @@ footer {
   margin-inline: auto;
 }
 
-input[type=button] {
-  position: relative;
-  bottom: 1px;
+.contact h2 {
   margin-top: 10px;
-  margin-left: 1px;
-  width: 120px;
-  height: 46px;
-  text-align: center;
-  background-color:#364ee6;
-  border-radius: 50px;
-  font-size: 14px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.4px;
-  color:  #fff;
-  transition: background-color 0.25s ease-in-out;
+}
+.contact p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 18px;
 }
 
-input[type=button]:hover {
-  background-color: #ff0000;
-}
-
-nav ul li a i {
+.contact nav ul li a i {
   display: inline;
   background-color: #7a53d4;
   border-radius: 50%;
